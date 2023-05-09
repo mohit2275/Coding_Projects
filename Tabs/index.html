@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabs </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="buttons">
+            <h3 class="btn" id="london" onclick="drop(s1,s2,s3,london,paris,tokyo)">
+                London</h3>
+
+            <h3 class="btn" id="paris" onclick="drop(s2,s1,s3,paris,london,tokyo)">
+                Paris</h3>
+
+            <h3 class="btn" id="tokyo" onclick="drop(s3,s1,s2,tokyo,paris,london)">
+                Tokyo</h3>
+        </div>
+        <div class="sections">
+            <div class="sec" id="s1">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+            </div>
+            <div class="sec" id="s2">
+                <h2>Paris</h2>
+                <p>London is the capital city of France.</p>
+            </div>
+            <div class="sec" id="s3">
+                <h2>Tokyo</h2>
+                <p>London is the capital city of Japan.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function drop(x, y, z, a, b, c) {
+            x.style.display = "block";
+            y.style.display = "none";
+            z.style.display = "none";
+            a.style.backgroundColor = "rgb(143, 140, 140)";
+            b.style.backgroundColor = "rgb(216, 213, 213)";
+            c.style.backgroundColor = "rgb(216, 213, 213)";
+        }
+    </script>
+
+</body>
+
+</html>

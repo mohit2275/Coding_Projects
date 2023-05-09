@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Icon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h2>This is the normal menu</h2>
+    <br>
+    <div class="normal">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <br>
+    <!-- The animated menu -->
+
+    <h2>This is the animated menu</h2>
+    <br>
+    <div class="animated" onclick="change()">
+        <div class="bar" id="bar1"></div>
+        <div class="bar" id="bar2"></div>
+        <div class="bar" id="bar3"></div>
+    </div>
+    <script>
+        let bar1 = document.getElementById('bar1');
+        let bar2 = document.getElementById('bar2');
+        let bar3 = document.getElementById('bar3');
+        let count = 0;
+
+        function change() {
+
+            if (count === 0) {
+                bar2.style.opacity = '0%';
+                bar1.style.transform = "translate(0px,16px) rotate(-45deg)";
+                bar1.style.backgroundColor = "rgb(247, 62, 62)"
+                bar3.style.transform = "translate(0px,-16px) rotate(45deg)";
+                bar3.style.backgroundColor = "rgb(247, 62, 62)"
+                count = 1;
+            }
+            else if (count === 1) {
+                bar2.style.opacity = '100%';
+                bar1.style.transform = "rotate(0deg)";
+                bar3.style.transform = "rotate(0deg)";
+                bar3.style.backgroundColor = "black";
+                bar1.style.backgroundColor = "black";
+                count = 0;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

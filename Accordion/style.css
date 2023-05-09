@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.main {
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.box {
+    background-color: rgb(173, 167, 167);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px rgb(116, 108, 108) solid;
+    color: white;
+}
+
+.box:hover {
+    background-color: rgb(105, 104, 104) !important;
+}
+
+#sec1,
+#sec2,
+#sec3 {
+    height: fit-content;
+    padding: 12px 15px;
+    line-height: 30px;
+    background-color: white;
+    display: none;
+}
+
+#m1,
+#m2,
+#m3 {
+    display: none;
+}

@@ -5,25 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tabs </title>
+    <title>Vertical Tabs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="main">
+        <div class="first">
 
-        <div class="buttons">
-            <h3 class="btn" id="london" onclick="drop(s1,s2,s3,london,paris,tokyo)">
-                London</h3>
+            <h2 class="buttons" id="london" onclick="drop(s1,s2,s3,london,paris,tokyo)">London</h2>
 
-            <h3 class="btn" id="paris" onclick="drop(s2,s1,s3,paris,london,tokyo)">
-                Paris</h3>
+            <h2 class="buttons" id="paris" onclick="drop(s2,s1,s3,paris,london,tokyo)">Paris</h2>
 
-            <h3 class="btn" id="tokyo" onclick="drop(s3,s1,s2,tokyo,paris,london)">
-                Tokyo</h3>
+
+            <h2 class="buttons" id="tokyo" onclick="drop(s3,s1,s2,tokyo,london,paris)">Tokyo</h2>
         </div>
-
-        <div class="sections">
+        <div class="second">
             <div class="sec" id="s1">
                 <h2>London</h2>
                 <p>London is the capital city of England.</p>
@@ -38,8 +35,9 @@
             </div>
         </div>
     </div>
-    
+
     <script src="script.js">
+
     </script>
 
 </body>

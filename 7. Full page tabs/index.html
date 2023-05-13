@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="first">
+        <h2 class="buttons" id="home" onclick="show(sec1,sec2,sec3,sec4 ,this,'darkorchid')">Home</h2>
+
+        <h2 class="buttons" id="news" onclick="show(sec2,sec1,sec4,sec4,this,'darksalmon')">News</h2>
+
+        <h2 class="buttons" id="contact" onclick="show(sec3,sec2,sec1,sec4,this,'firebrick')">Contact</h2>
+
+        <h2 class="buttons" id="about" onclick="show(sec4,sec2,sec3,sec1,this,'dimgray')">About</h2>
+    </div>
+
+    <div class="section" id="sec1">
+        <h2>Home</h2>
+        <p>Home is where the heart is..</p>
+    </div>
+
+    <div class="section" id="sec2">
+        <h2>News</h2>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div class="section" id="sec3">
+        <h2>Contact</h2>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div class="section" id="sec4">
+        <h2>About</h2>
+        <p>Who we are and what we do.</p>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.first {
+    display: flex;
+}
+
+.buttons {
+    width: 25%;
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 14px 0px;
+}
+
+.buttons:hover {
+    background-color: gray;
+}
+
+.section {
+    padding: 20px 30px;
+    height: 90vh;
+    font-size: 25px;
+    display: none;
+}
+
+#sec1 {
+    background-color: darkorchid;
+}
+
+#sec2 {
+    background-color: darksalmon;
+}
+
+#sec3 {
+    background-color: firebrick;
+}
+
+#sec4 {
+    background-color: dimgray;
+}
+
+

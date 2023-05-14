@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.main {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    display: flex;
+}
+
+.first {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    background-color: rgb(216, 213, 213);
+}
+
+.buttons {
+    padding: 20px 15px;
+    cursor: pointer;
+    background-color: rgb(216, 213, 213);
+}
+
+.buttons:hover {
+    background-color: rgb(172, 156, 156) !important;
+}
+
+.second {
+    background-color: white;
+    width: 100%;
+}
+
+.sec {
+    padding: 30px 20px;
+    line-height: 50px;
+    display: none;
+}

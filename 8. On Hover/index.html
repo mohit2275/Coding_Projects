@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Hover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">
+
+            <h2 class="buttons" id="london" onmouseover="drop(s1,s2,s3)">London</h2>
+
+            <h2 class="buttons" id="paris" onmouseover="drop(s2,s1,s3)">Paris</h2>
+
+
+            <h2 class="buttons" id="tokyo" onmouseover="drop(s3,s1,s2)">Tokyo</h2>
+        </div>
+        <div class="second">
+            <div class="sec" id="s1">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+            </div>
+            <div class="sec" id="s2">
+                <h2>Paris</h2>
+                <p>London is the capital city of France.</p>
+            </div>
+            <div class="sec" id="s3">
+                <h2>Tokyo</h2>
+                <p>London is the capital city of Japan.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>

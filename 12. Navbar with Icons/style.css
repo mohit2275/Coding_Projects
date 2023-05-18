@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar i{
+    margin: 0px 4px;
+}
+
+#active {
+    background-color: rgb(31, 141, 108);
+}
+
+.navbar a:hover {
+    background-color: black !important;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .navbar a {
+        font-size: 19px;
+        padding: 10px 15px;
+    }
+
+}

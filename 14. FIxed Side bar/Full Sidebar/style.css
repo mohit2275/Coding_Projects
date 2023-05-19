@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background-color: rgb(34, 32, 32);
+    padding: 10px 15px;
+    z-index: 1;
+}
+
+.sidebar a {
+    font-size: 28px;
+    color: white;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: rgb(160, 159, 159);
+}
+
+.main {
+    margin-left: 15%;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}

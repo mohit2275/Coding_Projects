@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(28, 31, 31);
+    font-size: 27px;
+    z-index: 1;
+    transition: .5s;
+    visibility: hidden;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav i {
+    width: fit-content;
+    color: rgb(199, 198, 198);
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    padding: 12px 45px;
+}
+
+.sidenav a:hover,
+.sidenav i:hover {
+    color: white;
+}
+
+#btn {
+    margin: 100px;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}

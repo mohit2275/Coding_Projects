@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    transition: .4s ease;
+}
+
+.btns {
+    text-decoration: none;
+    width: 13%;
+    position: absolute;
+    font-size: 20px;
+    padding: 1% 2%;
+    color: black;
+    border-radius: 0px 10px 10px 0px;
+    left: -10%;
+    overflow: hidden;
+}
+
+#about {
+    background-color: indianred;
+    top: 10%;
+}
+
+#blog {
+    background-color: forestgreen;
+    top: 21%;
+}
+
+#projects {
+    background-color: dodgerblue;
+    top: 32%;
+}
+
+#contacts {
+    background-color: dimgray;
+    top: 43%;
+}
+
+.btns:hover {
+    left: 0%;
+}
+
+@media screen and (max-width:900px) {
+    .btns {
+        width: 30%;
+        padding: 2% 2.5%;
+        left: -25%;
+    }
+}

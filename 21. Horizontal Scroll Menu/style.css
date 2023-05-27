@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.topnav {
+    background-color: darkcyan;
+    white-space: nowrap;
+    display: flex;
+    overflow: auto;
+}
+
+.topnav a {
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: darkcyan;
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    box-shadow: 0px 0px 2px black;
+    margin: 10px;
+}
+
+.vertical a {
+    font-size: 22px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: darkcyan !important;
+    color: white;
+}
+
+.vertical a:hover {
+    color: white;
+    background-color: rgb(194, 191, 191);
+}

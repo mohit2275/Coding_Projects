@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display: flex;
+}
+
+.nav a {
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.nav a.active {
+    border-bottom: 3px solid red;
+}
+
+.main {
+    font-size: medium;
+    padding: 30px;
+}

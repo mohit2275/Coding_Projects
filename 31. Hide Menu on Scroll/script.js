@@ -5,7 +5,7 @@ window.onscroll = function () {
 }
 
 function mohit() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
         navbar.style.top = "-55px"
     }
     else {

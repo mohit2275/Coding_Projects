@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(53, 51, 51);
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: rgb(218, 215, 215);
+}
+
+#menu1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 64, 89);
+    position: absolute;
+    top: 45px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#menu1 a {
+    padding-right: 80px;
+}
+
+#menu1 a:hover {
+    color: black;
+    background-color: pink;
+}
+
+#respBtn {
+    color: white;
+    padding: 10px 15px;
+    font-size: 23px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+#respBtn:hover {
+    color: white;
+    padding: 11px 15px;
+    font-size: 23px;
+    background-color: grey;
+}
+
+.active {
+    background-color: #21b621;
+}
+
+/* ////////////// For Responsive */
+
+@media screen and (max-width:600px) {
+    .navbar a:not(.active) {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    #respBtn {
+        display: block;
+    }
+
+    #menu1 {
+        position: initial;
+    }
+
+    .drop {
+        width: 100%;
+    }
+}
+
+/* Class for responsive */
+.first {
+    display: flex;
+    background-color: rgb(53, 51, 51);
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.first a:hover {
+    color: black;
+    background-color: rgb(218, 215, 215);
+}
+
+.first a {
+    width: 100%;
+}
+
+.first a:not(.active) {
+    flex-direction: column;
+    display: block;
+}
+
+.first #menu1 a {
+    width: 100%;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar a:hover {
+    background-color: indianred;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.dropItem {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+    background-color: rgb(241, 196, 196);
+    height: 0px;
+    overflow: hidden;
+}
+
+.contents {
+    display: flex;
+}
+
+#head h1 {
+    padding: 40px 20px;
+    color: white;
+    font-size: 40px;
+    background-color: indianred;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.menu h2 {
+    padding: 40px 0px 40px 15px;
+}
+
+.menu a {
+    padding: 20px 0px 20px 10px;
+    width: 100%;
+    color: rgb(109, 100, 100);
+}
+
+.menu a:hover {
+    color: white;
+    background-color: rgb(65, 64, 64);
+}
+
+.drop:hover .dropItem {
+    height: fit-content;
+}
+
+@media screen and (max-width:600px) {
+    .contents {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+}

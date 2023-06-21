@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 3px black;
+    background-color: whitesmoke;
+}
+
+.navbar a {
+    padding: 10px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar i {
+    position: absolute;
+    right: 0px;
+    font-size: 25px;
+    color: white;
+    padding: 12px 19px;
+    background-color: grey;
+}
+
+.navbar i:hover,
+.navbar a:hover {
+    background-color: rgb(169, 170, 170);
+}
+
+.main {
+    padding: 5px;
+    line-height: 40px;
+}
+
+.active {
+    background-color: darkcyan !important;
+}
+
+.navbar a:not(.active) {
+    display: none;
+}
+
+.mohit a:not(.active) {
+    display: block;
+}

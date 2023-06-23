@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+    box-shadow: 0px 0px 2px black;
+    margin-top: 20px ;
+}
+
+.pages a {
+    font-size: 20px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active {
+    background-color: white;
+    color: darkcyan !important;
+}
+
+.pages a:hover {
+    color: darkcyan;
+    background-color: white;
+}

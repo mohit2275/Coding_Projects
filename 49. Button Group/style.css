@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.group {
+    display: flex;
+    padding: 10px;
+}
+
+button {
+    padding: 6px 20px;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: white;
+    border: 1px rgb(75, 73, 73) solid;
+    cursor: pointer;
+}
+
+button:hover {
+    color: darkcyan;
+    background-color: white;
+}

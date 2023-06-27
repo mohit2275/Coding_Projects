@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+
+
+.nav a:hover {
+    color: white;
+    background-color: darkgray;
+}
+
+#active {
+    background-color: darkcyan;
+    color: white;
+}
